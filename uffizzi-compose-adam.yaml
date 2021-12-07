@@ -3,7 +3,7 @@ services:
     image: nginx:1.20
     configs:
       - source: vote.conf
-        target: /etc/nginx/conf.d
+        target: /etc/nginx/conf.d/vote.conf
         
   redis:
     image: redis:latest
